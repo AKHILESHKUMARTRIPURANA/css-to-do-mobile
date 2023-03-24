@@ -1,0 +1,370 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #797373;
+}
+#take 
+{
+    padding-left: 99px;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    height: 29px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px;
+    background-color: white;
+}
+#low
+{
+    color: #88d6f7;
+}
+.add-task
+{
+    margin-left: 999px;
+    font-size: large;
+}
+.pot
+{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 300;
+}
+#content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 51px;
+}
+.paris
+{
+    text-decoration: none;
+}
+.ball
+{
+    margin: 19px;
+    border: 2px solid #67676729;
+    border-radius: 21px;
+    background-color: white;
+    height: 230px;
+    width: 280px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.ball:hover
+{
+    box-shadow: 2px 2px 4px rgb(87, 79, 79);
+}
+h4 
+{
+    color: #5aadd1;
+}
+.lot 
+{
+    text-decoration: line-through;
+    color: #8d8484;
+}
+.india
+{
+    border: 2px solid #1a181829;
+    background-color: white;
+    border-radius: 10px;
+    height: 131px;
+    width: 298px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bat
+{
+    position: absolute;
+    font-size: x-large;
+    top: -60px;
+    left:0px
+}
+.rule
+{
+    width: 290px;
+    height: 20px;
+    background-color: #9b212129
+}
+.apple
+{
+    border-color: #4ed655;
+    margin-left: 210px;
+    padding: 4px 9px;
+    background-color: #71ccf3;
+    border-radius: 5px;
+}
+.fa-lg
+{
+    color:  #101213;
+    font-size:x-large;
+}
+.boob
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+#common
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 51px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 201px;
+    right: 199px;
+}
+.mains
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 151px;
+    left: 319px;
+}
+.seme
+{
+    margin-left: 20px;
+}
+.tom
+{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+.london
+{
+    border: 2px solid #42414129;
+    border-radius: 20px;
+    background-color: white;
+    width : 450px;
+    height : 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: x-large;
+}
+.mango
+{
+    font-size: x-large;
+    padding-right: 20px;
+}
+.cheat
+{
+    margin-right: 5px;
+}
+.rare
+{
+    display: block;
+    padding: 15px;
+}
+.first
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    margin-top: -35px;
+}
+.more
+{
+    border: 2px solid #7B7B7B29;
+    background-color: white;
+    border-radius: 10px;
+    height: 130px;
+    width: 300px;
+    padding: 20px;
+}
+.rose
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: x-large;
+    padding-bottom: 60px;
+}
+.linked
+{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.btn1
+{
+    background-color: #4ed655;
+    padding: 10px;
+}
+.south
+{
+    color: #02B3FF ;
+    font-size:x-large;
+}
+.tiger
+{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.blur
+{
+    filter: blur(2px);
+}
+@media screen and (min-width:320px) and (max-width: 480px)
+{
+    #take
+    {
+        padding-left: 10px;
+    }
+    #content
+    {
+        margin:15px;
+        right: 40px;
+    }
+    .ball
+    {
+        height:300px;
+        width: 500px;
+        margin-left: 0px;
+        margin-right: 36px;
+    }
+    .ball:hover
+    {
+        box-shadow: 2px 2px 4px rgb(87, 79, 79);
+    }
+    .add-task
+    {
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .hide
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .india
+    { 
+        height: 130px;
+        width: 250px;
+    }
+    .bat
+    {
+        left: 100px;
+    }
+    .rule
+    {
+        width: 250px;
+    }
+    .apple
+    {
+        margin-left: 170px;
+        padding: 3px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .boob
+    {
+        margin-top: 50px;
+    }
+    .london
+    {
+        height: 235px;
+        width: 200px;
+        font-size: large;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .more
+    {
+        height: 135px;
+        width: 265px;
+    }
+    .stop
+    {
+        width: 250px;
+    }
+    .btn2
+    {
+        margin-left: 180px;
+        padding: 4px;
+    }
+    .rose
+    {
+      font-size: large;
+    }
+    #common
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 51px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 200px;
+        right: -100px;
+    }
+    .mains
+    {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 40px;
+        left: -10px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:1000px)
+{
+    #take
+    {
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .add-task
+    {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .hide
+    {
+        display: none;
+    }
+    .ball
+    {
+        height:350px;
+        width: 420px;
+        margin-left: 0px;
+        margin-right: 36px;
+    }
+    .ball:hover
+    {
+        box-shadow: 2px 2px 4px rgb(87, 79, 79);
+    }
+    .london
+    {
+        height: 260px;
+        width: 300px;
+        font-size: large;
+    }
+    .boob
+    {
+        margin-top:20px;
+    }
+}
